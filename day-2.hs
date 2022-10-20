@@ -42,6 +42,6 @@ toInt = \x -> read x :: Int
 
 
 main = do
-    file <- readFile "i.txt"
+    file <- readFile "input-2.txt"
     print (getTotalSurface (lines file))
     print (getTotalLength (lines file))
